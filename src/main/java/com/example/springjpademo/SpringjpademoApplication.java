@@ -10,8 +10,7 @@ import java.sql.SQLException;
 public class SpringjpademoApplication {
 
     public static void main(String[] args) throws SQLException {
-        ConfigurableApplicationContext context = SpringApplication.run(SpringjpademoApplication.class, args);
-        MyDB db = context.getBean(MyDB.class);
+        SpringApplication.run(SpringjpademoApplication.class, args);
     }
 
 

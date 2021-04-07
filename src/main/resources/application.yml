@@ -7,8 +7,3 @@ countryDBDetails:
 ---
 dbDetails:
   driverClassName: "com.mysql.cj.jdbc.Driver"
-
----
-jasypt:
-  encryptor:
-    password: "ourPassword"
