@@ -11,8 +11,8 @@ class SpringjpademoApplicationTests {
 
     @Test
     void EncryptorTest() {
-        System.out.println(util.encryptString("root"));
-        System.out.println(util.encryptString("dhqxiao159"));
+        System.out.println(util.encryptString("db_username"));
+        System.out.println(util.encryptString("db_password"));
     }
 
 }

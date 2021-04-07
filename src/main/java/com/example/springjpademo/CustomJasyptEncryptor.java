@@ -24,6 +24,4 @@ public class CustomJasyptEncryptor {
         encryptor.setConfig(config);
         return encryptor;
     }
-
-
 }
